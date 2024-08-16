@@ -16,8 +16,8 @@
 
 #include "stm32f10x.h"
 
-void bsp_systick_init(void);
-void delay_us(uint32_t _us);
-void delay_ms(uint32_t _ms);
+// void bsp_systick_init(void);
+// void delay_us(uint32_t _us);
+// void delay_ms(uint32_t _ms);
 
 #endif

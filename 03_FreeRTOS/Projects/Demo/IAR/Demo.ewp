@@ -2103,9 +2103,15 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\BSP\Source\bsp_systick.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\BSP\Source\bsp_uart.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\BSP\Source\os_delay.c</name>
         </file>
     </group>
     <group>

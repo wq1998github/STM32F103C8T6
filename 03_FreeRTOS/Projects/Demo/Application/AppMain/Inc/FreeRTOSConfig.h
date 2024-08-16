@@ -125,8 +125,10 @@ NVIC value of 255. */
 #define configLIBRARY_KERNEL_INTERRUPT_PRIORITY	15
 
 #define xPortPendSVHandler PendSV_Handler
-#define xPortSysTickHandler SysTick_Handler
+// #define xPortSysTickHandler SysTick_Handler
 #define vPortSVCHandler SVC_Handler
+
+#define INCLUDE_xTaskGetSchedulerState 1
 
 #endif /* FREERTOS_CONFIG_H */
 

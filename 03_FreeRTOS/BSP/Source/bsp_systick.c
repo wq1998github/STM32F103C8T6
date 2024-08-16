@@ -13,6 +13,9 @@
  */
 #include "bsp_systick.h"
 
+
+#if 0
+
 static __IO uint32_t g_system_tick = 0;
 
 /**
@@ -83,3 +86,5 @@ void delay_us(uint32_t _us)
  -  @retval None
 */
 void delay_ms(uint32_t _ms) { delay_us(_ms * 1000); }
+
+#endif
