@@ -59,7 +59,7 @@
           <ListingPath>.\Listings\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
-          <CreateBatchFile>1</CreateBatchFile>
+          <CreateBatchFile>0</CreateBatchFile>
           <BeforeCompile>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\CoreSupport;..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\DeviceSupport;..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\inc;..\..\..\Middleware;..\Application\AppMain\Inc</IncludePath>
+              <IncludePath>..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\CoreSupport;..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\DeviceSupport;..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\inc;..\..\..\BSP\Include;..\..\..\Middleware;..\Application\AppMain\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -539,6 +539,16 @@
               <FileName>stm32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\BSP\Source\sys.c</FilePath>
             </File>
           </Files>
         </Group>

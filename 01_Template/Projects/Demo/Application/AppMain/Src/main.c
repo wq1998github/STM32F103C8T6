@@ -1,6 +1,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
 #include <stdio.h>
+#include "sys.h"
 
 typedef enum
 {
@@ -32,11 +33,13 @@ void led_control(BSP_LED_State state)
 {
     if (BSP_LED_OFF == state)
     {
-        GPIO_SetBits(GPIOC, GPIO_Pin_13);
+        // GPIO_SetBits(GPIOC, GPIO_Pin_13);
+        PCout(13) = 1;
     }
     else
     {
-        GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+        // GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+        PCout(13) = 0;
     }
 }
 

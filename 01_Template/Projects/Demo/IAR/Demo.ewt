@@ -2379,6 +2379,12 @@
         </file>
     </group>
     <group>
+        <name>BSP</name>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\BSP\Source\sys.c</name>
+        </file>
+    </group>
+    <group>
         <name>CMSIS</name>
         <file>
             <name>$PROJ_DIR$\..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\DeviceSupport\stm32f10x.h</name>

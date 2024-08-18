@@ -350,6 +350,7 @@
                     <state>$PROJ_DIR$\..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\inc</state>
                     <state>$PROJ_DIR$\..\Application\AppMain\Inc</state>
                     <state>$PROJ_DIR$\..\..\..\Middleware</state>
+                    <state>$PROJ_DIR$\..\..\..\BSP\Include</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1390,6 +1391,7 @@
                     <state>$PROJ_DIR$\..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\inc</state>
                     <state>$PROJ_DIR$\..\Application\AppMain\Inc</state>
                     <state>$PROJ_DIR$\..\..\..\Middleware</state>
+                    <state>$PROJ_DIR$\..\..\..\BSP\Include</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2087,6 +2089,12 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\Application\AppMain\Src\stm32f10x_it.c</name>
+        </file>
+    </group>
+    <group>
+        <name>BSP</name>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\BSP\Source\sys.c</name>
         </file>
     </group>
     <group>
