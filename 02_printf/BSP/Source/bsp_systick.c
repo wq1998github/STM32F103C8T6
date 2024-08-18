@@ -101,7 +101,7 @@ void delay_us(uint32_t nus)
  * @brief  使用 FreeRTOS 实现非阻塞的毫秒延时
  * @param  nms 要延时的ms数
  */
-void delay_ms(u32 nms)
+void delay_ms(uint32_t nms)
 {
     if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) // 系统已经运行
     {
@@ -111,7 +111,7 @@ void delay_ms(u32 nms)
         }
         nms %= fac_ms; // OS已经无法提供这么小的延时了,采用普通方式延时
     }
-    delay_us((u32)(nms * 1000)); // 普通方式延时
+    delay_us((uint32_t)(nms * 1000)); // 普通方式延时
 }
 
 /**

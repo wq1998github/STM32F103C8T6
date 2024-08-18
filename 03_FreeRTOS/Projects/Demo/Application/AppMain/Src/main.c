@@ -3,7 +3,7 @@
 #include "misc.h"
 #include <stdio.h>
 
-#include "os_delay.h"
+#include "bsp_systick.h"
 #include "bsp_led.h"
 #include "bsp_uart.h"
 
@@ -37,7 +37,7 @@ void vTaskUart(void *pvParameters)
 int main(void)
 {
     BaseType_t xHandle = NULL;
-    OS_SysTick_init();
+    bsp_systick_init();
 
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4); // FreeRTOS 要求
 
