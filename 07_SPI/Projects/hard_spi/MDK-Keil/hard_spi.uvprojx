@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\CoreSupport;..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\DeviceSupport;..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\inc;..\..\..\BSP\Include;..\..\..\Middleware;..\Application\AppMain\Inc</IncludePath>
+              <IncludePath>..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\CoreSupport;..\..\..\STM32F10x_StdPeriph_Lib\CMSIS\DeviceSupport;..\..\..\STM32F10x_StdPeriph_Lib\STM32F10x_StdPeriph_Driver\inc;..\..\..\BSP\Include;..\..\..\Middleware;..\Application\AppMain\Inc;..\..\..\Hardware</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -561,9 +561,29 @@
               <FilePath>..\..\..\BSP\Source\bsp_uart.c</FilePath>
             </File>
             <File>
+              <FileName>bsp_simu_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\BSP\Source\bsp_simu_spi.c</FilePath>
+            </File>
+            <File>
               <FileName>bsp_system.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\BSP\Source\bsp_system.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>w25q32.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Hardware\W25Q32\w25q32.c</FilePath>
+            </File>
+            <File>
+              <FileName>W25QXX.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Hardware\W25Q32\W25QXX.c</FilePath>
             </File>
           </Files>
         </Group>

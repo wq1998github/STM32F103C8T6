@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "bsp_uart.h": "c",
+        "bsp_systick.h": "c",
+        "bsp_system.h": "c",
+        "stm32f10x.h": "c",
+        "bsp_simu_spi.h": "c",
+        "stm32f10x_gpio.h": "c",
+        "stm32f10x_rcc.h": "c",
+        "w25q32.h": "c",
+        "stm32f10x_spi.h": "c"
+    }
+}
